@@ -1,9 +1,9 @@
 
-//create the class
-class pen{
+//create the class --class name always start with capital letter.. 
+class Pen{
     String color;//create variable
     String type;
-    //create the function
+    //create the function ---name always start with the small letter ...
     public void write1(){
         System.out.println("Writing something from gel pen ");
     }
@@ -18,7 +18,7 @@ class pen{
 }
 
 
-class Main {
+class Class {
     public static void main(String[] args) {
         pen pen1=new pen();// object is created pen1
         pen1.color="blue";
