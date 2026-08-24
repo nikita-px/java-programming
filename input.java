@@ -10,6 +10,9 @@ public class input {
          double res=3.141*r*r;
         System.out.println("the area of the circle in which the radius is given by the user:"+res);
 
+        double num2=sc.nextDouble();
+        System.out.println(num2);
+
     }
 
 }
